@@ -185,7 +185,7 @@ export default function LaJaboneraPage() {
         </div>
 
         {/* Beneficios */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <section className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
           <Benefit icon={<ShieldIcon className="w-6 h-6" />} title="Calidad profesional" desc="Fórmulas efectivas probadas en uso doméstico y comercial." />
           <Benefit icon={<LeafIcon className="w-6 h-6" />} title="Opciones eco" desc="Productos biodegradables y rellenos a granel para reducir plástico." />
           <Benefit icon={<TruckIcon className="w-6 h-6" />} title="Envío local" desc="Cobertura en la zona con entregas el mismo día en pedidos antes de las 12:00." />
