@@ -1,7 +1,7 @@
 // src/components/layout/Footer.tsx
 "use client";
 import Image from "next/image";
-// import { MailIcon, PhoneIcon, MapPinIcon } from "lucide-react";
+import { MailIcon, PhoneIcon, MapPinIcon } from "lucide-react";
 
 export default function Footer() {
   return (

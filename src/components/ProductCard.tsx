@@ -1,6 +1,7 @@
 // src/components/layout/FooterCard.tsx
 "use client";
 import Image from "next/image";
+import { MailIcon, PhoneIcon, MapPinIcon } from "lucide-react";
 
 export default function FooterCard() {
   return (
