@@ -1,7 +1,6 @@
 'use client'; // Necesario para usar hooks
 
 import { useState } from 'react';
-import Link from 'next/link';
 
 // Define o importa tus TAGS (ejemplo)
 const TAGS = ['multiusos', 'hogar', 'desinfección', 'antibacterial', 'ropa', 'aroma'];

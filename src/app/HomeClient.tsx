@@ -303,8 +303,6 @@ export default function LaJaboneraPage() {
   );
 }
 
-// --------------------------- UI Helpers ----------------------------
-
 function Benefit({
   icon,
   title,
