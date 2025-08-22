@@ -1,7 +1,6 @@
 'use client';
 
 // import { LogoMark } from './icons'; // Asumiendo que tienes un archivo para íconos
-import Link from 'next/link';
 import { ShieldIcon, TruckIcon, LeafIcon } from '@/components/icons';
 export default function Home() {
   return (
