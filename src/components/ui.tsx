@@ -13,9 +13,11 @@ export const Benefit = ({ icon, title, desc }: {
   title: string; 
   desc: string 
 }) => (
-  <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-    {/* ... código del componente ... */}
-  </div>
+    <div className="rounded-3xl border p-4">
+      <div>{icon}</div>
+      <h3>{title}</h3>
+      <p>{desc}</p>
+    </div>
 );
 
 // Exporta los demás componentes (Testimonial, Faq, etc.) de la misma forma
