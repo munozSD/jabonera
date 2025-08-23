@@ -8,6 +8,10 @@ import { ShieldIcon } from '@/components/icons';
 // Coloca este archivo como: src/app/page.tsx
 // Requiere Tailwind CSS ya configurado (globals.css + postcss.config.js)
 // ------------------------------------------------------------
+const StarIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" className={className} aria-hidden>
+    <path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 16l-4.9 2.2.9-5.5-4-3.9 5.5-.8L12 3z" fill="none" stroke="#0f172a" strokeWidth="1.2" strokeLinejoin="round" />
+  </svg>
 
 export const metadata = {
   title: "La Jabonera | Productos de limpieza",
@@ -189,7 +193,6 @@ export default function LaJaboneraPage() {
           <Benefit icon={<ShieldIcon className="w-6 h-6" />} title="Calidad profesional" desc="Fórmulas efectivas probadas en uso doméstico y comercial." />
           <Benefit icon={<LeafIcon className="w-6 h-6" />} title="Opciones eco" desc="Productos biodegradables y rellenos a granel para reducir plástico." />
           <Benefit icon={<TruckIcon className="w-6 h-6" />} title="Envío local" desc="Cobertura en la zona con entregas el mismo día en pedidos antes de las 12:00." />
-        </div>
       </section>
 
       {/* Nosotros */}
